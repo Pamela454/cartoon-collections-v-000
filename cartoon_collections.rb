@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(index, dwarves)
   # code an argument here
   # Your code here
   dwarves.each do |dwarves, index|
