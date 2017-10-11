@@ -8,8 +8,7 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
-planeteer.map do |planet|
-  puts "#{planeteer}.upcase"
+planeteer.map (&:capitalize)
   end
 end
 
