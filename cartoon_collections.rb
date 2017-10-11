@@ -8,7 +8,8 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
-planeteer.collect do |planet.upcase|
+planeteer.collect do |planet|
+  puts "#{planet.upcase}"
   end
 end
 
