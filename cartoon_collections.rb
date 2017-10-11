@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
-planeteer.collect{"planet"}
+planeteer.collect do |planet|
   end
 end
 
