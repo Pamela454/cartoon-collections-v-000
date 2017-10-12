@@ -23,7 +23,7 @@ def find_the_cheese(cheese)# code an argument here
   cheese.find do |each|
     if each.include?(cheese_types)
       puts "#{cheese}"
-    else puts "#{cheese}"
+    else return nil 
     end
   end
 end
