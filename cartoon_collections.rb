@@ -23,6 +23,6 @@ def find_the_cheese(cheese)# code an argument here
 cheese.find do |each|
   if each.include?(cheese)
    else puts "#{cheese}"
-   end
+    end
   end
 end
