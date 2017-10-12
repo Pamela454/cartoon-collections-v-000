@@ -12,7 +12,7 @@ puts planeteer.map |planet|
   planeteer.capitalize
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(calls)# code an argument here
   # Your code here
 end
 
