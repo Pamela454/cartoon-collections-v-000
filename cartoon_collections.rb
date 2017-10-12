@@ -20,10 +20,10 @@ end
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.find do |each|
+  cheese.find do |house|
     if each.include?(cheese_types)
       puts "#{each}"
-    else return nil 
+    else return nil
     end
   end
 end
