@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(planeteer).map do |planet|
+def summon_captain_planet(planeteer).map(1) do |planet|
   "#{planeteer.capitalize}"
 end
 
