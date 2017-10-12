@@ -14,8 +14,8 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.each do |call| 
-    call.length
+  calls.each do |call|
+    call.length < 4
   end 
 end
 
